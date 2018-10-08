@@ -64,12 +64,7 @@ namespace GenConEventWidget
                 }
                 else
                 {
-                    //making some changes to test git
-                    string begin = "this is the beginning of test to git functions.";
-                    string only = "this is only a test and can be removed later.";
-                    MessageBox.Show(begin + Environment.NewLine + only);
-
-                    /*Read excel sheet*/
+                   /*Read excel sheet*/
                     string excelSheetFilename = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=" + FILENAME +
                                                 ";Extended Properties=\"Excel 12.0 Xml;HDR=Yes;IMEX=2\"";
 
